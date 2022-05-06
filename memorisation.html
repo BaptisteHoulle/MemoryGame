@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/memorisation.css">
+</head>
+
+<body>
+
+    <div id="rules" class="rules">
+        <div class="rulescontainer">
+            <p class="welcome">Bienvenue sur le jeu de Rekamas !</p>
+            <p class="rulestext">Le but du jeu est de mémoriser les 3 premiers chiffres qui vont apparaître. Lors de chaque niveau réussi, 1 chiffre s'ajoutera à la liste et vous aurez 750 millisecondes de plus pour mémoriser l'intégralité des chiffres.</p>
+            <p class="goodluck">Bonne chance !</p>
+            <a id="launchGame" href="javascript:;">Lancer le jeu</a>
+        </div>
+
+    </div>
+
+    <div class="none" id="container">
+
+        <div class="inputvalidate">
+            <input class="none" id="input" type="text" />
+            <input class="none" id="button" type="button" value="Validate" />
+        </div>
+        <div id="input_correction"></div>
+        <div id="text_correction"></div>
+        <div id="numberstext"></div>
+        <span id="barreFond" class="none barrefond">
+            <div class="" id="barre"></div>
+        </span>
+        <a class="javascript:;" id="rejouer">Rejouer</a>
+    </div>
+
+    <script src="scripts/memorisation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"
+        integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
